@@ -1,40 +1,16 @@
+## 本番環境URL
+
 https://s3-upload-ui.vercel.app/
 
+## アプリケーションの機能
 
+- ブラウザからAmazon S3バケット内のファイル一覧を表示
+- ファイルのアップロード（複数ファイル対応）
+- ファイルのダウンロード
+- ファイルの削除
+- フォルダごとのグループ表示
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 作成の意図
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+このアプリケーションは、AWS SDKとAmazon S3 Intelligent-Tieringストレージクラスの動作検証を目的として作成しました。
+S3のファイル操作を通じて、Intelligent-Tieringの挙動やコスト最適化の効果を学習・検証するための学習用プロジェクトです。
